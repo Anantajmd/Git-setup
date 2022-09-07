@@ -20,14 +20,13 @@ $ git config --global user.name "Emma Paris" $ git config --global user.email "e
 #### Git packages are available via apt:
 
 1) From your shell, install Git using apt-get:
-
 $ sudo apt-get update
 $ sudo apt-get install git
-2) Verify the installation was successful by typing git --version:
 
+2) Verify the installation was successful by typing git --version:
 $ git --version
 git version 2.9.2
-3) Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you      create:
 
+3) Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you      create:
 $ git config --global user.name "Emma Paris"
 $ git config --global user.email "eparis@atlassian.com"
