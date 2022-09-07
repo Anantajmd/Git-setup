@@ -12,7 +12,9 @@ Git setup on local system
 4) Run the following commands to configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
 
  
-$ git config --global user.name "Emma Paris" $ git config --global user.email "eparis@atlassian.com"
+  $ git config --global user.name "tatya vinchu" 
+
+  $ git config --global user.email "tatyavinchu@gmail.com"
 
 
 ## Install Git on Linux
@@ -33,6 +35,6 @@ $ git config --global user.name "Emma Paris" $ git config --global user.email "e
 
 3) Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you      create:
 
-   $ git config --global user.name "Emma Paris" 
+   $ git config --global user.name "tatya vinchu" 
    
-   $ git config --global user.email "eparis@atlassian.com"
+   $ git config --global user.email "tatyavinchu@gmail.com"
