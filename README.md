@@ -20,10 +20,12 @@ $ git config --global user.name "Emma Paris" $ git config --global user.email "e
 #### Git packages are available via apt:
 
 1) From your shell, install Git using apt-get:
+   
    $ sudo apt-get update
    $ sudo apt-get install git
 
 2) Verify the installation was successful by typing git --version:
+
 i) $ git --version
    git version 2.9.2
 
