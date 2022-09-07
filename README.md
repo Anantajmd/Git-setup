@@ -46,8 +46,9 @@ Git setup on local system
 2) Paste the text below, substituting in your GitHub email address.
 
    $ ssh-keygen -t ed25519 -C "your_email@example.com"
-##### Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+3) If you are using a legacy system that doesn't support the Ed25519 algorithm, then use the below command:
 
    $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    
-This creates a new SSH key, using the provided email as a label.
+##### This creates a new SSH key, using the provided email as a label, copy the public key and add it to in github account.
+
