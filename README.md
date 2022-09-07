@@ -38,3 +38,16 @@ Git setup on local system
    $ git config --global user.name "tatya vinchu" 
    
    $ git config --global user.email "tatyavinchu@gmail.com"
+
+## SSH key
+##### Generate a new SSH key on your local machine. After generating the key,  add the key to your account on GitHub.com to enable authentication for Git operations over SSH.
+1) Open Terminal.
+
+2) Paste the text below, substituting in your GitHub email address.
+
+   $ ssh-keygen -t ed25519 -C "your_email@example.com"
+##### Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+
+   $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   
+This creates a new SSH key, using the provided email as a label.
