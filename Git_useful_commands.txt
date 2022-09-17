@@ -1,0 +1,13 @@
+# for new commit
+1) $ git commit : Commit the staged snapshot. This will launch a text editor prompting you for a commit message.
+
+2) $ git commit -a : Commit a snapshot of all changes in the working directory. This only includes modifications to tracked files
+
+3) $ git commit -m "commit message" : A shortcut command that immediately creates a commit with a passed commit message
+
+4) $ git commit -am "commit message" : A power user shortcut command that combines the -a and -m options. 
+     This combination immediately creates a commit of all the staged changes and takes an inline commit message.
+
+# Amend commit 
+
+1) $ git commit --amend : This option adds another level of functionality to the commit command. Passing this option will modify the last commit.
