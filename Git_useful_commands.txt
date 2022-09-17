@@ -11,3 +11,7 @@
 # Amend commit 
 
 1) $ git commit --amend : This option adds another level of functionality to the commit command. Passing this option will modify the last commit.
+
+# Git push
+
+1) $ git push :
